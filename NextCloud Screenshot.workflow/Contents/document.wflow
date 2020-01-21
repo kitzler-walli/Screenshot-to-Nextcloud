@@ -18,111 +18,6 @@
 					<key>Container</key>
 					<string>List</string>
 					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>1.1.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>fileNames</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Specified Finder Items.action</string>
-				<key>ActionName</key>
-				<string>Get Specified Finder Items</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>fileNames</key>
-					<array>
-						<string>~/Desktop/DokaTools.zip</string>
-						<string>~/Desktop/Screenshot 2020-01-21 at 09.21.35.png</string>
-					</array>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.SpecifiedFiles</string>
-				<key>CFBundleVersion</key>
-				<string>1.1.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryFilesAndFolders</string>
-				</array>
-				<key>Class Name</key>
-				<string>SpecifiedFilesAction</string>
-				<key>Disabled</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>4BAC3E56-4688-43BD-9DE2-8C114450A193</string>
-				<key>Keywords</key>
-				<array>
-					<string>File</string>
-					<string>Choose</string>
-					<string>Find</string>
-					<string>Get</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>E260E42D-D4E2-491D-8BF1-0F73DCEBC650</string>
-				<key>UUID</key>
-				<string>CE207B86-4AF1-4DD1-8525-4A8D8F833E29</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<array/>
-						<key>name</key>
-						<string>fileNames</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<false/>
-				<key>location</key>
-				<string>762.000000:111.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
 					<false/>
 					<key>Types</key>
 					<array>
@@ -281,7 +176,7 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>762.000000:152.000000</string>
+				<string>762.000000:111.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -401,122 +296,9 @@
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>762.000000:193.000000</string>
+				<string>762.000000:152.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Move Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array/>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>2.0.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>pauseDuration</key>
-					<dict/>
-					<key>pauseUnit</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array/>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Pause.action</string>
-				<key>ActionName</key>
-				<string>Pause</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>pauseDuration</key>
-					<integer>5</integer>
-					<key>pauseUnit</key>
-					<integer>0</integer>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Pause</string>
-				<key>CFBundleVersion</key>
-				<string>2.0.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<false/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>PauseAction</string>
-				<key>Disabled</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>F52001AA-0394-4622-A75C-EBCDB6E2DD2A</string>
-				<key>Keywords</key>
-				<array>
-					<string>Time</string>
-					<string>Wait</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>B0CBF1C1-AF77-4653-9303-17AC8165DB70</string>
-				<key>UUID</key>
-				<string>3A19AB15-6ECE-4A16-9461-FFFB0BD4F073</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>pauseDuration</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>pauseUnit</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<false/>
-				<key>location</key>
-				<string>762.000000:234.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Pause.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<false/>
@@ -727,7 +509,7 @@ echo $result </string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>762.000000:641.000000</string>
+				<string>762.000000:695.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -933,7 +715,7 @@ echo $result </string>
 				<key>isViewVisible</key>
 				<false/>
 				<key>location</key>
-				<string>762.000000:723.000000</string>
+				<string>762.000000:801.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -943,47 +725,33 @@ echo $result </string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>2549218D-F3C7-45B7-A76F-A350B6286080</key>
-		<dict>
-			<key>from</key>
-			<string>3A19AB15-6ECE-4A16-9461-FFFB0BD4F073 - 3A19AB15-6ECE-4A16-9461-FFFB0BD4F073</string>
-			<key>to</key>
-			<string>74C09E95-8AC0-4A45-8A14-4454B5F3E3CA - 74C09E95-8AC0-4A45-8A14-4454B5F3E3CA</string>
-		</dict>
-		<key>5EA81C96-565B-4E00-A9EC-2B9DE31715B2</key>
-		<dict>
-			<key>from</key>
-			<string>FB612FC7-DDC2-4FA3-B4DC-953A6D759291 - FB612FC7-DDC2-4FA3-B4DC-953A6D759291</string>
-			<key>to</key>
-			<string>3A19AB15-6ECE-4A16-9461-FFFB0BD4F073 - 3A19AB15-6ECE-4A16-9461-FFFB0BD4F073</string>
-		</dict>
-		<key>6E9D7AAE-38BB-47AF-A99A-43B05EA47029</key>
+		<key>37429215-5BBF-481E-B816-07827428CCFB</key>
 		<dict>
 			<key>from</key>
 			<string>40225B4E-886A-4B80-B768-CA35F061AD6F - 40225B4E-886A-4B80-B768-CA35F061AD6F</string>
 			<key>to</key>
 			<string>FB612FC7-DDC2-4FA3-B4DC-953A6D759291 - FB612FC7-DDC2-4FA3-B4DC-953A6D759291</string>
 		</dict>
-		<key>7C49E233-96B0-4AC2-BD84-B150B2C77198</key>
+		<key>5FC42570-C389-4696-9BD6-10F974A476EB</key>
+		<dict>
+			<key>from</key>
+			<string>74C09E95-8AC0-4A45-8A14-4454B5F3E3CA - 74C09E95-8AC0-4A45-8A14-4454B5F3E3CA</string>
+			<key>to</key>
+			<string>C342CB63-B6EC-41D2-A7E7-5C425D72EBCF - C342CB63-B6EC-41D2-A7E7-5C425D72EBCF</string>
+		</dict>
+		<key>67E6FCD7-7605-45AE-BCD8-CB14CBA8DE32</key>
+		<dict>
+			<key>from</key>
+			<string>FB612FC7-DDC2-4FA3-B4DC-953A6D759291 - FB612FC7-DDC2-4FA3-B4DC-953A6D759291</string>
+			<key>to</key>
+			<string>74C09E95-8AC0-4A45-8A14-4454B5F3E3CA - 74C09E95-8AC0-4A45-8A14-4454B5F3E3CA</string>
+		</dict>
+		<key>C7A5861B-7872-4D2C-9479-B0CDBC7E8C56</key>
 		<dict>
 			<key>from</key>
 			<string>C342CB63-B6EC-41D2-A7E7-5C425D72EBCF - C342CB63-B6EC-41D2-A7E7-5C425D72EBCF</string>
 			<key>to</key>
 			<string>75A55B2B-534B-4D51-8ED6-4E6C57112633 - 75A55B2B-534B-4D51-8ED6-4E6C57112633</string>
-		</dict>
-		<key>92DBC418-08D4-4D3E-8C70-20D1723C82C8</key>
-		<dict>
-			<key>from</key>
-			<string>74C09E95-8AC0-4A45-8A14-4454B5F3E3CA - 74C09E95-8AC0-4A45-8A14-4454B5F3E3CA</string>
-			<key>to</key>
-			<string>C342CB63-B6EC-41D2-A7E7-5C425D72EBCF - C342CB63-B6EC-41D2-A7E7-5C425D72EBCF</string>
-		</dict>
-		<key>A9B8D5EA-DF11-4040-A8BF-9FAC0E7156B5</key>
-		<dict>
-			<key>from</key>
-			<string>CE207B86-4AF1-4DD1-8525-4A8D8F833E29 - CE207B86-4AF1-4DD1-8525-4A8D8F833E29</string>
-			<key>to</key>
-			<string>40225B4E-886A-4B80-B768-CA35F061AD6F - 40225B4E-886A-4B80-B768-CA35F061AD6F</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
